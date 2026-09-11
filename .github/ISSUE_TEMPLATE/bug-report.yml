@@ -8,8 +8,8 @@ body:
       value: |
         Please fill out the form to submit bug report.
         在仓库中提交bug反馈，请填写下面信息。
-        Please do not include API keys, access tokens, or other sensitive information.
-        请勿提交 API Key、Access Token 或其他敏感信息。
+        Please do not include API keys or other sensitive information.
+        请勿提交 API Key 或其他敏感信息。
   - type: textarea
     id: description
     attributes:
