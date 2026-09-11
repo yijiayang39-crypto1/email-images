@@ -42,7 +42,6 @@ body:
       label: Area
       description: Which part of this project does this relate to?｜该需求属于项目哪个模块？
       options:
-        - None
         - Tools
         - MCP servers
         - Extensions / Plugins
