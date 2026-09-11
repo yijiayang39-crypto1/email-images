@@ -56,8 +56,8 @@ body:
       label: Problem Type
       description: Type of search quality issue｜搜索问题类型
       options:
-        - None 无
-        - Irrelevant results 结果不相关
-        - Missing content 目标内容缺失
-        - Wrong ranking 排序错误
+        - Irrelevant results 
+        - Missing content 
+        - Wrong ranking 
         - Outdated information 
+        - Other
