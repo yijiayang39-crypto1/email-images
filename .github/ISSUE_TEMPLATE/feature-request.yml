@@ -6,59 +6,44 @@ body:
   - type: markdown
     attributes:
       value: |
-        在仓库中提交功能需求，请填写下面信息。
-        Please fill out the form to submit feature request.
-
-  - type: input
-    id: title
-    attributes:
-      label: Add a title
-      description: Briefly summarize your feature request｜简要描述这个功能需求
-      placeholder: e.g. Support export search result as csv
-    validations:
-      required: true
-
+        Thanks for helping us improve AnySearch. Tell us what you'd like to see and how it would help your use case.
+        感谢你的建议。请告诉我们你希望 AnySearch 支持什么能力，以及它能解决什么实际问题。
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: What would you like?｜你想要什么功能？
+      label: Feature Request
+      description: What would you like AnySearch to support or improve?｜你希望 AnySearch 新增或改进什么能力？
       placeholder: Leave a comment
     validations:
       required: true
-
   - type: textarea
     id: use_case
     attributes:
       label: Use Case
-      description: Why is this needed? What problem does it solve?｜为什么需要这个功能，可以解决什么问题？
+      description: What are you trying to achieve, and how would this feature help?｜你希望完成什么任务？这个功能可以解决什么问题？
       placeholder: Leave a comment
     validations:
       required: true
-
   - type: dropdown
     id: area
     attributes:
       label: Area
       description: Which part of this project does this relate to?｜该需求属于项目哪个模块？
       options:
-        - Tools
-        - MCP servers
-        - Extensions / Plugins
-        - Skills / Commands
-        - Configuration
+        - Web Search
+        - Vertical Search
+        - Extract
+        - API
+        - MCP
+        - Skill
+        - Integrations
+        - Documentation
         - Other
-
+    validations:
+      required: true
   - type: textarea
     id: proposed_solution
     attributes:
       label: Proposed Solution
-      description: How would you implement this? Link to relevant docs or APIs if applicable.｜你设想如何实现？如有相关文档/API可以附上链接。
-      placeholder: Leave a comment
-
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives Considered
-      description: Any workarounds or other approaches you've tried?｜你是否尝试过其他替代方案或临时办法？
+      description: If you have an idea for how this feature could work, feel free to share it. Links, examples, or references are welcome.｜如果你对这个功能如何实现或使用有想法，欢迎补充，也可以附上示例、文档或参考链接。
       placeholder: Leave a comment
