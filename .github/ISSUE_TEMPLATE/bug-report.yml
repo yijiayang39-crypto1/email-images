@@ -8,25 +8,16 @@ body:
       value: |
         在仓库中提交bug反馈，请填写下面信息。
         Please fill out the form to submit bug report.
-
-  - type: input
-    id: title
-    attributes:
-      label: Add a title
-      description: Briefly summarize the bug
-      placeholder: e.g. Search function crash when input special characters
-    validations:
-      required: true
-
+        Please do not include API keys, access tokens, or other sensitive information.
+        请勿提交 API Key、Access Token 或其他敏感信息。
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What happened?｜发生了什么？
+      description: Describe what happened, including any error messages or unexpected behavior.｜描述实际发生的问题，包括错误信息或异常现象。
       placeholder: Leave a comment
     validations:
       required: true
-
   - type: textarea
     id: steps
     attributes:
@@ -35,38 +26,19 @@ body:
       placeholder: Leave a comment
     validations:
       required: true
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected Behavior
-      description: What did you expect to happen?｜你期望的正常效果是什么？
-      placeholder: Leave a comment
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual Behavior
-      description: What actually happened?｜实际发生的现象
-      placeholder: Leave a comment
-
   - type: dropdown
-    id: platform
+    id: integration
     attributes:
-      label: Platform
-      description: Which platform did you encounter this bug｜遇到bug的平台
+      label: Integration
+      description: How are you using AnySearch?｜你是如何使用 AnySearch 的？(单选)
       options:
-        - None 无
-        - Web网页端
-        - macOS客户端
-        - Windows客户端
-        - Linux客户端
-        - Mobile移动端
+        - API
+        - MCP
+        - Skill
+        - Third-party integration
+        - Other
     validations:
       required: true
-
   - type: textarea
     id: additional_context
     attributes:
