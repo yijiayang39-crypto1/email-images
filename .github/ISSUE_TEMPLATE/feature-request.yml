@@ -1,0 +1,58 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[Feature Request] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Add a title
+      description: Short summary of the feature request
+      placeholder: Title
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What would you like?
+      placeholder: Leave a comment
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case
+      description: Why is this needed? What problem does it solve?
+      placeholder: Leave a comment
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of this project does this relate to?
+      options:
+        - None
+        - Frontend前端
+        - Backend后端
+        - API接口
+        - Document文档
+        - Other其他
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: How would you implement this? Link to relevant docs or APIs if applicable.
+      placeholder: Leave a comment
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any workarounds or other approaches you've tried?
+      placeholder: Leave a comment
