@@ -7,14 +7,12 @@ body:
     attributes:
       value: |
         Please fill out the form to submit bug report.
-        在仓库中提交bug反馈，请填写下面信息。
         Please do not include API keys or other sensitive information.
-        请勿提交 API Key 或其他敏感信息。
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: Describe what happened, including any error messages or unexpected behavior.｜描述实际发生的问题，包括错误信息或异常现象。
+      label: What happened？
+      description: Describe the issue you encountered, including any error messages or unexpected behavior.｜请描述你遇到的问题，包括错误信息或异常现象。
       placeholder: Leave a comment
     validations:
       required: true
@@ -22,14 +20,14 @@ body:
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: List the steps to reproduce this issue｜复现该问题的操作步骤
+      description: Please provide the steps needed to reproduce the issue.｜请提供能复现该问题的操作步骤。
       placeholder: Leave a comment
     validations:
       required: true
   - type: dropdown
     id: integration
     attributes:
-      label: Integration
+      label: How are you using AnySearch?
       description: How are you using AnySearch?｜你是如何使用 AnySearch 的？(单选)
       options:
         - API
@@ -40,8 +38,14 @@ body:
     validations:
       required: true
   - type: textarea
+    id: request_details
+    attributes:
+      label: Request Details
+      description: Please provide relevant details, such as endpoint, request ID, request time, version, or agent/framework.｜请提供相关信息，例如 Endpoint、Request ID、请求时间、版本或 Agent / Framework。
+      placeholder: Leave a comment
+  - type: textarea
     id: additional_context
     attributes:
       label: Additional Context
-      description: Screenshots, logs or other related information｜截图、日志或其他相关信息
+      description: Add any relevant queries, screenshots, or other related information.｜可补充相关Query、截图或其他相关信息
       placeholder: Leave a comment
