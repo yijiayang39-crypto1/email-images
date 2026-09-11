@@ -28,7 +28,7 @@ body:
     id: integration
     attributes:
       label: How are you using AnySearch?
-      description: How are you using AnySearch?｜你是如何使用 AnySearch 的？
+      description: 
       options:
         - API
         - MCP
