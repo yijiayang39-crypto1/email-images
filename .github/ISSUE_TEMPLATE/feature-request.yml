@@ -11,7 +11,7 @@ body:
     id: description
     attributes:
       label: Feature Request
-      description: What would you like AnySearch to support or improve?｜你希望 AnySearch 新增或改进什么能力？
+      description: What would you like AnySearch to support or improve?
       placeholder: Leave a comment
     validations:
       required: true
@@ -19,7 +19,7 @@ body:
     id: use_case
     attributes:
       label: Use Case
-      description: What are you trying to achieve, and how would this feature help?｜你希望完成什么任务？这个功能可以解决什么问题？
+      description: What are you trying to achieve, and how would this feature help?
       placeholder: Leave a comment
     validations:
       required: true
@@ -27,7 +27,7 @@ body:
     id: area
     attributes:
       label: Area
-      description: Which part of this project does this relate to?｜该需求属于项目哪个模块？
+      description: Which part of this project does this relate to?
       options:
         - Web Search
         - Vertical Search
@@ -44,5 +44,5 @@ body:
     id: proposed_solution
     attributes:
       label: Proposed Solution
-      description: If you have an idea for how this feature could work, feel free to share it. Links, examples, or references are welcome.｜如果你对这个功能如何实现或使用有想法，欢迎补充，也可以附上示例、文档或参考链接。
+      description: If you have an idea for how this feature could work, feel free to share it. Links, examples, or references are welcome.
       placeholder: Leave a comment
