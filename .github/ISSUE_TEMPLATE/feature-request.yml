@@ -7,7 +7,6 @@ body:
     attributes:
       value: |
         Thanks for helping us improve AnySearch. Tell us what you'd like to see and how it would help your use case.
-        感谢你的建议。请告诉我们你希望 AnySearch 支持什么能力，以及它能解决什么实际问题。
   - type: textarea
     id: description
     attributes:
