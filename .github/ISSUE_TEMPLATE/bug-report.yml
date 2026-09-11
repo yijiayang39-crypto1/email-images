@@ -12,15 +12,14 @@ body:
     id: description
     attributes:
       label: What happened？
-      description: Describe the issue you encountered, including any error messages or unexpected behavior.｜请描述你遇到的问题，包括错误信息或异常现象。
-      placeholder: Leave a comment
+      description: Describe the issue you encountered, including any error messages or unexpected behavior.
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: Please provide the steps needed to reproduce the issue.｜请提供能复现该问题的操作步骤。
+      description: Please provide the steps needed to reproduce the issue.
       placeholder: Leave a comment
     validations:
       required: true
@@ -41,11 +40,9 @@ body:
     id: request_details
     attributes:
       label: Request Details
-      description: Please provide relevant details, such as endpoint, request ID, request time, version, or agent/framework.｜请提供相关信息，例如 Endpoint、Request ID、请求时间、版本或 Agent / Framework。
-      placeholder: Leave a comment
-  - type: textarea
+      description: Please provide relevant details, such as endpoint, request ID, request time, version, or agent/framework.
     id: additional_context
     attributes:
       label: Additional Context
-      description: Add any relevant queries, screenshots, or other related information.｜可补充相关Query、截图或其他相关信息
+      description: Add any relevant queries, screenshots, or other related information.
       placeholder: Leave a comment
